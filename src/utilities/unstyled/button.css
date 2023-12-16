@@ -8,11 +8,11 @@
     font-size: 0.875rem;
   }
   &-md {
-    @apply h-12 min-h-[3rem] px-4;
+    @apply h-10 min-h-[2.5rem] px-4;
     font-size: 0.875rem;
   }
   &-lg {
-    @apply h-16 min-h-[4rem] px-6;
+    @apply h-12 min-h-[3rem] px-6;
     font-size: 1.125rem;
   }
   &-wide {
@@ -29,10 +29,10 @@
       @apply h-8 w-8 p-0;
     }
     &:where(.btn-md) {
-      @apply h-12 w-12 p-0;
+      @apply h-10 w-10 p-0;
     }
     &:where(.btn-lg) {
-      @apply h-16 w-16 p-0;
+      @apply h-12 w-12 p-0;
     }
   }
   &-circle {
@@ -43,10 +43,10 @@
       @apply h-8 w-8 rounded-full p-0;
     }
     &:where(.btn-md) {
-      @apply h-12 w-12 rounded-full p-0;
+      @apply h-10 w-10 rounded-full p-0;
     }
     &:where(.btn-lg) {
-      @apply h-16 w-16 rounded-full p-0;
+      @apply h-12 w-12 rounded-full p-0;
     }
   }
 }
